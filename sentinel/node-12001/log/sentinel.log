@@ -1,0 +1,186 @@
+14629:X 07 Nov 2019 20:29:20.140 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14629:X 07 Nov 2019 20:29:20.140 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14629, just started
+14629:X 07 Nov 2019 20:29:20.142 # Configuration loaded
+14629:X 07 Nov 2019 20:29:20.143 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14629:X 07 Nov 2019 20:29:20.144 * Running mode=sentinel, port=26380.
+14629:X 07 Nov 2019 20:29:20.145 # Sentinel ID is 17b5b978919ac77aa8b59e48d881cf921a4e6bfd
+14629:X 07 Nov 2019 20:29:20.145 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+14629:X 07 Nov 2019 20:29:20.145 # +monitor master repredis 127.0.0.1 6380 quorum 2
+14629:X 07 Nov 2019 20:29:20.146 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+14629:X 07 Nov 2019 20:29:20.147 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+14629:X 07 Nov 2019 20:30:10.170 # +sdown master repredis 127.0.0.1 6380
+14629:signal-handler (1573133432) Received SIGINT scheduling shutdown...
+14629:X 07 Nov 2019 20:30:32.652 # User requested shutdown...
+14629:X 07 Nov 2019 20:30:32.652 * Removing the pid file.
+14629:X 07 Nov 2019 20:30:32.652 # Sentinel is now ready to exit, bye bye...
+14632:X 07 Nov 2019 20:30:34.838 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14632:X 07 Nov 2019 20:30:34.839 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14632, just started
+14632:X 07 Nov 2019 20:30:34.840 # Configuration loaded
+14632:X 07 Nov 2019 20:30:34.841 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14632:X 07 Nov 2019 20:30:34.842 * Running mode=sentinel, port=26380.
+14632:X 07 Nov 2019 20:30:34.842 # Sentinel ID is 17b5b978919ac77aa8b59e48d881cf921a4e6bfd
+14632:X 07 Nov 2019 20:30:34.842 # +monitor master repredis 127.0.0.1 6380 quorum 2
+14632:X 07 Nov 2019 20:30:34.842 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+14632:X 07 Nov 2019 20:31:24.870 # +sdown master repredis 127.0.0.1 6380
+14632:X 07 Nov 2019 20:31:57.257 * +sentinel sentinel e445f23cbbd7891a45b26fd05b17346f92684932 127.0.0.1 26379 @ mymaster 127.0.0.1 6379
+14632:X 07 Nov 2019 20:42:15.719 * +sentinel sentinel 9b53c397df5046f9b75d90547910d206682118ee 127.0.0.1 26381 @ mymaster 127.0.0.1 6379
+14670:X 07 Nov 2019 20:44:12.007 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14670:X 07 Nov 2019 20:44:12.007 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14670, just started
+14670:X 07 Nov 2019 20:44:12.009 # Configuration loaded
+14670:X 07 Nov 2019 20:44:12.010 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14670:X 07 Nov 2019 20:44:12.011 * Running mode=sentinel, port=26380.
+14670:X 07 Nov 2019 20:44:12.011 # Sentinel ID is 17b5b978919ac77aa8b59e48d881cf921a4e6bfd
+14670:X 07 Nov 2019 20:44:12.011 # +monitor master mymaster 127.0.0.1 6380 quorum 2
+14670:X 07 Nov 2019 20:44:12.101 * +sentinel sentinel e445f23cbbd7891a45b26fd05b17346f92684932 127.0.0.1 26379 @ mymaster 127.0.0.1 6380
+14670:X 07 Nov 2019 20:44:12.686 * +sentinel sentinel 9b53c397df5046f9b75d90547910d206682118ee 127.0.0.1 26381 @ mymaster 127.0.0.1 6380
+14670:X 07 Nov 2019 20:45:02.060 # +sdown master mymaster 127.0.0.1 6380
+14670:signal-handler (1573135634) Received SIGTERM scheduling shutdown...
+14670:X 07 Nov 2019 21:07:14.930 # User requested shutdown...
+14670:X 07 Nov 2019 21:07:14.930 * Removing the pid file.
+14670:X 07 Nov 2019 21:07:14.932 # Sentinel is now ready to exit, bye bye...
+14807:X 07 Nov 2019 21:11:02.706 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14808:X 07 Nov 2019 21:11:02.706 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14807:X 07 Nov 2019 21:11:02.706 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14807, just started
+14808:X 07 Nov 2019 21:11:02.708 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14808, just started
+14807:X 07 Nov 2019 21:11:02.708 # Configuration loaded
+14808:X 07 Nov 2019 21:11:02.708 # Configuration loaded
+14807:X 07 Nov 2019 21:11:02.709 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14808:X 07 Nov 2019 21:11:02.709 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14807:X 07 Nov 2019 21:11:02.710 * Running mode=sentinel, port=26380.
+14808:X 07 Nov 2019 21:11:02.710 * Running mode=sentinel, port=26381.
+14807:X 07 Nov 2019 21:11:02.710 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14808:X 07 Nov 2019 21:11:02.710 # Sentinel ID is 6e929cd655a034cb045386d53b1ed20266738f32
+14807:X 07 Nov 2019 21:11:02.710 # +monitor master example-test 127.0.0.1 16379 quorum 2
+14808:X 07 Nov 2019 21:11:02.710 # +monitor master example-test 127.0.0.1 16379 quorum 2
+14807:X 07 Nov 2019 21:11:07.713 # +sdown master example-test 127.0.0.1 16379
+14808:X 07 Nov 2019 21:11:07.731 # +sdown master example-test 127.0.0.1 16379
+14807:signal-handler (157313591114808) Received SIGTERM scheduling shutdown...
+:signal-handler (1573135911) Received SIGTERM scheduling shutdown...
+14807:X 07 Nov 2019 21:11:51.356 # User requested shutdown...
+14807:X 07 Nov 2019 21:11:51.356 # Sentinel is now ready to exit, bye bye...
+14808:X 07 Nov 2019 21:11:51.363 # User requested shutdown...
+14808:X 07 Nov 2019 21:11:51.363 # Sentinel is now ready to exit, bye bye...
+14820:X 07 Nov 2019 21:12:03.306 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14820:X 07 Nov 2019 21:12:03.306 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14820, just started
+14820:X 07 Nov 2019 21:12:03.308 # Configuration loaded
+14820:X 07 Nov 2019 21:12:03.309 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14820:X 07 Nov 2019 21:12:03.310 * Running mode=sentinel, port=26380.
+14820:X 07 Nov 2019 21:12:03.311 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14820:X 07 Nov 2019 21:12:03.311 # +monitor master example-test 127.0.0.1 16379 quorum 2
+14820:X 07 Nov 2019 21:12:08.366 # +sdown master example-test 127.0.0.1 16379
+14820:signal-handler (1573137095) Received SIGTERM scheduling shutdown...
+14820:X 07 Nov 2019 21:31:35.899 # User requested shutdown...
+14820:X 07 Nov 2019 21:31:35.900 # Sentinel is now ready to exit, bye bye...
+14930:X 07 Nov 2019 21:31:43.452 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14930:X 07 Nov 2019 21:31:43.452 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14930, just started
+14930:X 07 Nov 2019 21:31:43.452 # Configuration loaded
+14930:X 07 Nov 2019 21:31:43.453 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14930:X 07 Nov 2019 21:31:43.454 * Running mode=sentinel, port=26380.
+14930:X 07 Nov 2019 21:31:43.454 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14930:X 07 Nov 2019 21:31:43.454 # +monitor master example-test 127.0.0.1 6379 quorum 2
+14930:X 07 Nov 2019 21:31:43.455 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6379
+14930:X 07 Nov 2019 21:31:45.486 * +sentinel sentinel 6e929cd655a034cb045386d53b1ed20266738f32 127.0.0.1 26381 @ example-test 127.0.0.1 6379
+14930:X 07 Nov 2019 21:31:45.488 * +sentinel sentinel 5fd98e513515e3f6256bd84264c52d3e399dfa16 127.0.0.1 26379 @ example-test 127.0.0.1 6379
+14930:X 07 Nov 2019 21:34:02.071 # +sdown sentinel 6e929cd655a034cb045386d53b1ed20266738f32 127.0.0.1 26381 @ example-test 127.0.0.1 6379
+14930:signal-handler (1573137263) Received SIGTERM scheduling shutdown...
+14930:X 07 Nov 2019 21:34:23.329 # User requested shutdown...
+14930:X 07 Nov 2019 21:34:23.329 # Sentinel is now ready to exit, bye bye...
+14948:X 07 Nov 2019 21:34:26.819 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14948:X 07 Nov 2019 21:34:26.819 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14948, just started
+14948:X 07 Nov 2019 21:34:26.821 # Configuration loaded
+14948:X 07 Nov 2019 21:34:26.822 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14948:X 07 Nov 2019 21:34:26.823 * Running mode=sentinel, port=26380.
+14948:X 07 Nov 2019 21:34:26.823 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14948:X 07 Nov 2019 21:34:26.823 # +monitor master example-test 127.0.0.1 6379 quorum 2
+14948:X 07 Nov 2019 21:38:07.589 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6379
+14948:signal-handler (1573137528) Received SIGTERM scheduling shutdown...
+14948:X 07 Nov 2019 21:38:48.675 # User requested shutdown...
+14948:X 07 Nov 2019 21:38:48.675 # Sentinel is now ready to exit, bye bye...
+14969:X 07 Nov 2019 21:39:12.598 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14969:X 07 Nov 2019 21:39:12.598 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14969, just started
+14969:X 07 Nov 2019 21:39:12.600 # Configuration loaded
+14969:X 07 Nov 2019 21:39:12.601 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14969:X 07 Nov 2019 21:39:12.602 * Running mode=sentinel, port=26380.
+14969:X 07 Nov 2019 21:39:12.602 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14969:X 07 Nov 2019 21:39:12.602 # +monitor master example-test 127.0.0.1 6380 quorum 2
+14969:X 07 Nov 2019 21:39:37.673 # +sdown master example-test 127.0.0.1 6380
+14969:signal-handler (1573137719) Received SIGTERM scheduling shutdown...
+14969:X 07 Nov 2019 21:41:59.860 # User requested shutdown...
+14969:X 07 Nov 2019 21:41:59.860 # Sentinel is now ready to exit, bye bye...
+14989:X 07 Nov 2019 21:42:03.638 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14989:X 07 Nov 2019 21:42:03.638 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14989, just started
+14989:X 07 Nov 2019 21:42:03.640 # Configuration loaded
+14989:X 07 Nov 2019 21:42:03.641 * Increased maximum number of open files to 10032 (it was originally set to 256).
+14989:X 07 Nov 2019 21:42:03.642 * Running mode=sentinel, port=26380.
+14989:X 07 Nov 2019 21:42:03.642 # Sentinel ID is a26c98b00ad43b2e2f08d347533a5e2ee30ae649
+14989:X 07 Nov 2019 21:42:03.642 # +monitor master example-test 127.0.0.1 6379 quorum 2
+14989:X 07 Nov 2019 21:42:37.671 # +sdown master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.774 # +odown master example-test 127.0.0.1 6379 #quorum 2/2
+14989:X 07 Nov 2019 21:42:37.774 # +new-epoch 1
+14989:X 07 Nov 2019 21:42:37.776 # +try-failover master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.777 # +vote-for-leader a26c98b00ad43b2e2f08d347533a5e2ee30ae649 1
+14989:X 07 Nov 2019 21:42:37.779 # 6e929cd655a034cb045386d53b1ed20266738f32 voted for a26c98b00ad43b2e2f08d347533a5e2ee30ae649 1
+14989:X 07 Nov 2019 21:42:37.780 # 5fd98e513515e3f6256bd84264c52d3e399dfa16 voted for a26c98b00ad43b2e2f08d347533a5e2ee30ae649 1
+14989:X 07 Nov 2019 21:42:37.856 # +elected-leader master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.856 # +failover-state-select-slave master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.920 # +selected-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.921 * +failover-state-send-slaveof-noone slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:37.998 * +failover-state-wait-promotion slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:38.811 # +promoted-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:38.812 # +failover-state-reconf-slaves master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:38.861 * +slave-reconf-sent slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:39.842 * +slave-reconf-inprog slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:39.842 * +slave-reconf-done slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:39.926 # -odown master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:39.926 # +failover-end master example-test 127.0.0.1 6379
+14989:X 07 Nov 2019 21:42:39.928 # +switch-master example-test 127.0.0.1 6379 127.0.0.1 6381
+14989:X 07 Nov 2019 21:42:39.928 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:42:39.929 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:42:44.960 # +sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:43:01.674 # -sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:43:11.657 * +convert-to-slave slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:44:05.288 # +sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:44:29.472 # -sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:44:57.446 # +sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:45:22.229 # -sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:45:29.501 # +sdown master example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:45:29.737 # +new-epoch 2
+14989:X 07 Nov 2019 21:45:29.738 # +vote-for-leader 5fd98e513515e3f6256bd84264c52d3e399dfa16 2
+14989:X 07 Nov 2019 21:45:30.672 # +odown master example-test 127.0.0.1 6381 #quorum 3/2
+14989:X 07 Nov 2019 21:45:30.672 # Next failover delay: I will not start a failover before Thu Nov  7 22:15:30 2019
+14989:X 07 Nov 2019 21:45:30.833 # +config-update-from sentinel 5fd98e513515e3f6256bd84264c52d3e399dfa16 127.0.0.1 26379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:45:30.834 # +switch-master example-test 127.0.0.1 6381 127.0.0.1 6380
+14989:X 07 Nov 2019 21:45:30.835 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:45:30.835 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:45:35.853 # +sdown slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:45:54.438 # -sdown slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:46:04.381 * +convert-to-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.636 # +sdown master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.720 # +odown master example-test 127.0.0.1 6380 #quorum 2/2
+14989:X 07 Nov 2019 21:51:36.720 # +new-epoch 3
+14989:X 07 Nov 2019 21:51:36.722 # +try-failover master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.723 # +vote-for-leader a26c98b00ad43b2e2f08d347533a5e2ee30ae649 3
+14989:X 07 Nov 2019 21:51:36.725 # 6e929cd655a034cb045386d53b1ed20266738f32 voted for a26c98b00ad43b2e2f08d347533a5e2ee30ae649 3
+14989:X 07 Nov 2019 21:51:36.725 # 5fd98e513515e3f6256bd84264c52d3e399dfa16 voted for a26c98b00ad43b2e2f08d347533a5e2ee30ae649 3
+14989:X 07 Nov 2019 21:51:36.813 # +elected-leader master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.814 # +failover-state-select-slave master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.906 # +selected-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.906 * +failover-state-send-slaveof-noone slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:36.983 * +failover-state-wait-promotion slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:37.951 # +promoted-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:37.951 # +failover-state-reconf-slaves master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.006 * +slave-reconf-sent slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.768 * +slave-reconf-inprog slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.769 * +slave-reconf-done slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.843 # -odown master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.843 # +failover-end master example-test 127.0.0.1 6380
+14989:X 07 Nov 2019 21:51:38.845 # +switch-master example-test 127.0.0.1 6380 127.0.0.1 6381
+14989:X 07 Nov 2019 21:51:38.846 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:51:38.846 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:51:43.883 # +sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 21:52:00.720 # -sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 22:11:15.187 # +sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:X 07 Nov 2019 22:11:39.136 # -sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ example-test 127.0.0.1 6381
+14989:signal-handler (1573140805) Received SIGTERM scheduling shutdown...
+14989:X 07 Nov 2019 22:33:25.691 # User requested shutdown...
+14989:X 07 Nov 2019 22:33:25.691 # Sentinel is now ready to exit, bye bye...

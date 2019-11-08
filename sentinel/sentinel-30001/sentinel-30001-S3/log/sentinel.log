@@ -1,0 +1,190 @@
+1908:X 08 Nov 2019 21:21:13.962 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1908:X 08 Nov 2019 21:21:13.962 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1908, just started
+1908:X 08 Nov 2019 21:21:13.964 # Configuration loaded
+1908:X 08 Nov 2019 21:21:13.966 * Increased maximum number of open files to 10032 (it was originally set to 256).
+1908:X 08 Nov 2019 21:21:13.968 * Running mode=sentinel, port=20003.
+1908:X 08 Nov 2019 21:21:13.969 # Sentinel ID is f168cbdf45e83d6a7a7c1638f9f5a144c2827a52
+1908:X 08 Nov 2019 21:21:13.969 # +monitor master example-test 127.0.0.1 30001 quorum 2
+1908:X 08 Nov 2019 21:21:13.970 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 21:21:16.052 * +sentinel sentinel d759d9695f8187772b31677c1f88cde63340d9e9 127.0.0.1 20001 @ example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 21:21:16.054 * +sentinel sentinel 771d674c29c56310393021d017843f11a1601fd4 127.0.0.1 20000 @ example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 22:06:50.953 # +sdown master example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 22:06:51.030 # +odown master example-test 127.0.0.1 30001 #quorum 2/2
+1908:X 08 Nov 2019 22:06:51.031 # +new-epoch 1
+1908:X 08 Nov 2019 22:06:51.031 # +try-failover master example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 22:06:51.032 # +vote-for-leader f168cbdf45e83d6a7a7c1638f9f5a144c2827a52 1
+1908:X 08 Nov 2019 22:06:51.032 # 771d674c29c56310393021d017843f11a1601fd4 voted for 771d674c29c56310393021d017843f11a1601fd4 1
+1908:X 08 Nov 2019 22:06:51.035 # d759d9695f8187772b31677c1f88cde63340d9e9 voted for 771d674c29c56310393021d017843f11a1601fd4 1
+1908:X 08 Nov 2019 22:06:52.123 # +config-update-from sentinel 771d674c29c56310393021d017843f11a1601fd4 127.0.0.1 20000 @ example-test 127.0.0.1 30001
+1908:X 08 Nov 2019 22:06:52.123 # +switch-master example-test 127.0.0.1 30001 127.0.0.1 6379
+1908:X 08 Nov 2019 22:06:52.124 * +slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:02.257 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:12.297 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:23.324 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:33.389 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:43.410 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:07:53.531 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:03.537 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:13.575 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:23.620 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:33.629 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:43.714 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:08:53.808 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:03.843 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:13.909 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:23.954 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:33.990 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:44.074 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:09:54.091 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:04.185 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:14.221 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:24.228 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:34.285 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:44.317 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:10:54.357 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:04.366 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:14.397 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:24.414 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:34.426 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:44.452 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:11:54.503 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:04.549 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:14.584 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:24.588 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:31.549 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:45.171 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:45.171 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:45.239 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:12:55.184 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:05.190 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:16.659 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:19.908 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:20.012 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:34.282 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:42.763 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:42.763 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:42.816 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:13:52.812 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:14:02.874 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:14:12.915 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:14:21.644 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:29.094 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:29.094 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:29.194 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:39.151 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:39.300 * +sentinel sentinel c7505f1339fcbc939a3d19e2d6d693d474a8a7ce 127.0.0.1 20006 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:39.603 * +sentinel sentinel cebb9bb0409390c8df888ae65af25a62376c98d7 127.0.0.1 20004 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:40.199 * +sentinel sentinel da33218dad5d3be5821928b59291ff41eed4bc6c 127.0.0.1 20005 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:49.192 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:15:59.253 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:09.278 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:19.298 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:29.339 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:39.388 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:49.450 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:16:59.480 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:09.493 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:19.544 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:29.593 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:39.606 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:49.672 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:17:59.698 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:09.745 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:19.819 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:29.871 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:39.916 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:49.937 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:49.937 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:18:59.959 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:10.014 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:19.456 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:20.576 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:20.632 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:30.596 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:38.175 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:39.409 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:40.601 * +reboot slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:19:50.630 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:00.642 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:10.709 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:20.763 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:30.770 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:40.780 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:20:50.789 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:00.822 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:10.849 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:20.907 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:30.948 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:40.998 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:21:51.004 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:01.020 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:11.097 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:21.107 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:31.130 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:41.138 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:22:51.164 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:23:00.890 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:23:25.123 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:23:36.126 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:23:46.191 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:23:56.230 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:06.303 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:16.360 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:26.402 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:36.404 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:46.423 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:24:52.543 # +sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:25:16.733 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:25:16.791 # -sdown slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:25:27.773 * +fix-slave-config slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:25:47.825 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:25:57.849 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:07.890 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:17.905 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:28.003 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:38.018 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:48.117 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:26:58.143 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:08.167 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:18.173 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:28.224 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:38.262 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:48.266 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:27:58.338 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:08.361 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:18.379 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:28.486 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:38.517 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:48.589 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:28:58.592 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:08.628 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:18.641 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:28.717 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:38.775 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:48.792 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:29:58.823 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:08.888 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:18.957 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:28.972 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:39.021 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:49.040 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:30:59.051 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:09.103 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:19.172 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:29.237 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:39.254 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:49.312 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:31:59.344 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:09.385 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:19.446 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:29.453 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:39.506 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:49.601 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:32:59.608 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:33:09.646 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:33:19.703 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:33:29.728 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:X 08 Nov 2019 22:33:39.830 * +convert-to-slave slave 127.0.0.1:30001 127.0.0.1 30001 @ example-test 127.0.0.1 6379
+1908:signal-handler (1573227225) Received SIGTERM scheduling shutdown...
+1908:X 08 Nov 2019 22:33:45.965 # User requested shutdown...
+1908:X 08 Nov 2019 22:33:45.966 # Sentinel is now ready to exit, bye bye...

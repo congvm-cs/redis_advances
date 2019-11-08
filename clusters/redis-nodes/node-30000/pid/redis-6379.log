@@ -1,0 +1,175 @@
+14564:C 07 Nov 2019 20:07:21.529 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14564:C 07 Nov 2019 20:07:21.529 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14564, just started
+14564:C 07 Nov 2019 20:07:21.529 # Configuration loaded
+14564:M 07 Nov 2019 20:07:21.531 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 14564
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14564:M 07 Nov 2019 20:07:21.532 # Server initialized
+14564:M 07 Nov 2019 20:07:21.532 * Ready to accept connections
+14564:signal-handler (1573132053) Received SIGINT scheduling shutdown...
+14564:M 07 Nov 2019 20:07:33.232 # User requested shutdown...
+14564:M 07 Nov 2019 20:07:33.233 * Saving the final RDB snapshot before exiting.
+14564:M 07 Nov 2019 20:07:33.235 * DB saved on disk
+14564:M 07 Nov 2019 20:07:33.235 * Removing the pid file.
+14564:M 07 Nov 2019 20:07:33.235 # Redis is now ready to exit, bye bye...
+14572:C 07 Nov 2019 20:08:21.188 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14572:C 07 Nov 2019 20:08:21.188 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=14572, just started
+14572:C 07 Nov 2019 20:08:21.190 # Configuration loaded
+14572:M 07 Nov 2019 20:08:21.191 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 14572
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14572:M 07 Nov 2019 20:08:21.192 # Server initialized
+14572:M 07 Nov 2019 20:08:21.192 * DB loaded from disk: 0.000 seconds
+14572:M 07 Nov 2019 20:08:21.192 * Ready to accept connections
+14572:M 07 Nov 2019 20:23:11.036 * Replica 127.0.0.1:6380 asks for synchronization
+14572:M 07 Nov 2019 20:23:11.036 * Full resync requested by replica 127.0.0.1:6380
+14572:M 07 Nov 2019 20:23:11.036 * Starting BGSAVE for SYNC with target: disk
+14572:M 07 Nov 2019 20:23:11.036 * Background saving started by pid 14613
+14613:C 07 Nov 2019 20:23:11.037 * DB saved on disk
+14572:M 07 Nov 2019 20:23:11.122 * Background saving terminated with success
+14572:M 07 Nov 2019 20:23:11.123 * Synchronization with replica 127.0.0.1:6380 succeeded
+14572:M 07 Nov 2019 20:23:19.796 * Replica 127.0.0.1:6381 asks for synchronization
+14572:M 07 Nov 2019 20:23:19.796 * Full resync requested by replica 127.0.0.1:6381
+14572:M 07 Nov 2019 20:23:19.796 * Starting BGSAVE for SYNC with target: disk
+14572:M 07 Nov 2019 20:23:19.796 * Background saving started by pid 14615
+14615:C 07 Nov 2019 20:23:19.797 * DB saved on disk
+14572:M 07 Nov 2019 20:23:19.841 * Background saving terminated with success
+14572:M 07 Nov 2019 20:23:19.841 * Synchronization with replica 127.0.0.1:6381 succeeded
+14572:M 07 Nov 2019 21:06:45.271 # Connection with replica 127.0.0.1:6381 lost.
+14572:M 07 Nov 2019 21:38:07.307 * Replica 127.0.0.1:6381 asks for synchronization
+14572:M 07 Nov 2019 21:38:07.307 * Partial resynchronization request from 127.0.0.1:6381 accepted. Sending 305339 bytes of backlog starting from offset 1.
+14572:M 07 Nov 2019 21:43:01.611 # Connection with replica client id #42 lost.
+14572:M 07 Nov 2019 21:43:01.611 # Connection with replica client id #4 lost.
+14572:S 07 Nov 2019 21:43:11.657 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+14572:S 07 Nov 2019 21:43:11.657 * REPLICAOF 127.0.0.1:6381 enabled (user request from 'id=73 addr=127.0.0.1:58759 fd=33 name=sentinel-a26c98b0-cmd age=10 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=148 qbuf-free=32620 obl=36 oll=0 omem=0 events=r cmd=exec')
+14572:S 07 Nov 2019 21:43:11.659 # CONFIG REWRITE executed with success.
+14572:S 07 Nov 2019 21:43:11.667 * Connecting to MASTER 127.0.0.1:6381
+14572:S 07 Nov 2019 21:43:11.668 * MASTER <-> REPLICA sync started
+14572:S 07 Nov 2019 21:43:11.668 * Non blocking connect for SYNC fired the event.
+14572:S 07 Nov 2019 21:43:11.668 * Master replied to PING, replication can continue...
+14572:S 07 Nov 2019 21:43:11.668 * Trying a partial resynchronization (request a40b43310eca39e8da4f722646787f65eebefeb8:415536).
+14572:S 07 Nov 2019 21:43:11.670 * Full resync from master: 76960e8c6193e59c7c0194a6c1061a479c041af5:355320
+14572:S 07 Nov 2019 21:43:11.670 * Discarding previously cached master state.
+14572:S 07 Nov 2019 21:43:11.692 * MASTER <-> REPLICA sync: receiving 178 bytes from master
+14572:S 07 Nov 2019 21:43:11.693 * MASTER <-> REPLICA sync: Flushing old data
+14572:S 07 Nov 2019 21:43:11.693 * MASTER <-> REPLICA sync: Loading DB in memory
+14572:S 07 Nov 2019 21:43:11.693 * MASTER <-> REPLICA sync: Finished with success
+14572:S 07 Nov 2019 21:45:30.833 # Connection with master lost.
+14572:S 07 Nov 2019 21:45:30.833 * Caching the disconnected master state.
+14572:S 07 Nov 2019 21:45:30.835 * REPLICAOF 127.0.0.1:6380 enabled (user request from 'id=77 addr=127.0.0.1:58795 fd=11 name=sentinel-5fd98e51-cmd age=139 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=148 qbuf-free=32620 obl=36 oll=0 omem=0 events=r cmd=exec')
+14572:S 07 Nov 2019 21:45:30.837 # CONFIG REWRITE executed with success.
+14572:S 07 Nov 2019 21:45:30.965 * Connecting to MASTER 127.0.0.1:6380
+14572:S 07 Nov 2019 21:45:30.965 * MASTER <-> REPLICA sync started
+14572:S 07 Nov 2019 21:45:30.967 * Non blocking connect for SYNC fired the event.
+14572:S 07 Nov 2019 21:45:30.967 * Master replied to PING, replication can continue...
+14572:S 07 Nov 2019 21:45:30.967 * Trying a partial resynchronization (request 76960e8c6193e59c7c0194a6c1061a479c041af5:382241).
+14572:S 07 Nov 2019 21:45:30.968 * Successful partial resynchronization with master.
+14572:S 07 Nov 2019 21:45:30.968 # Master replication ID changed to 334bb6b3a66acb6f57b4e3bf89bfb8119fa85c1e
+14572:S 07 Nov 2019 21:45:30.968 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+14572:S 07 Nov 2019 21:49:53.746 * 1 changes in 900 seconds. Saving...
+14572:S 07 Nov 2019 21:49:53.747 * Background saving started by pid 15050
+15050:C 07 Nov 2019 21:49:53.748 * DB saved on disk
+14572:S 07 Nov 2019 21:49:53.847 * Background saving terminated with success
+14572:S 07 Nov 2019 21:51:38.006 # Connection with master lost.
+14572:S 07 Nov 2019 21:51:38.006 * Caching the disconnected master state.
+14572:S 07 Nov 2019 21:51:38.008 * REPLICAOF 127.0.0.1:6381 enabled (user request from 'id=79 addr=127.0.0.1:58865 fd=8 name=sentinel-a26c98b0-cmd age=367 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=285 qbuf-free=32483 obl=36 oll=0 omem=0 events=r cmd=exec')
+14572:S 07 Nov 2019 21:51:38.010 # CONFIG REWRITE executed with success.
+14572:S 07 Nov 2019 21:51:38.438 * Connecting to MASTER 127.0.0.1:6381
+14572:S 07 Nov 2019 21:51:38.438 * MASTER <-> REPLICA sync started
+14572:S 07 Nov 2019 21:51:38.440 * Non blocking connect for SYNC fired the event.
+14572:S 07 Nov 2019 21:51:38.440 * Master replied to PING, replication can continue...
+14572:S 07 Nov 2019 21:51:38.441 * Trying a partial resynchronization (request 334bb6b3a66acb6f57b4e3bf89bfb8119fa85c1e:455964).
+14572:S 07 Nov 2019 21:51:38.441 * Successful partial resynchronization with master.
+14572:S 07 Nov 2019 21:51:38.441 # Master replication ID changed to b33f0ac257642ed95870eefc3f9e90045248380b
+14572:S 07 Nov 2019 21:51:38.441 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+14572:S 07 Nov 2019 22:10:22.145 * 1 changes in 900 seconds. Saving...
+14572:S 07 Nov 2019 22:10:22.146 * Background saving started by pid 15069
+15069:C 07 Nov 2019 22:10:22.147 * DB saved on disk
+14572:S 07 Nov 2019 22:10:22.249 * Background saving terminated with success
+14572:S 07 Nov 2019 22:25:23.025 * 1 changes in 900 seconds. Saving...
+14572:S 07 Nov 2019 22:25:23.026 * Background saving started by pid 15196
+15196:C 07 Nov 2019 22:25:23.028 * DB saved on disk
+14572:S 07 Nov 2019 22:25:23.130 * Background saving terminated with success
+14572:signal-handler (1573140805) Received SIGTERM scheduling shutdown...
+14572:S 07 Nov 2019 22:33:25.701 # Connection with master lost.
+14572:S 07 Nov 2019 22:33:25.702 * Caching the disconnected master state.
+14572:S 07 Nov 2019 22:33:25.705 # User requested shutdown...
+14572:S 07 Nov 2019 22:33:25.705 * Saving the final RDB snapshot before exiting.
+14572:S 07 Nov 2019 22:33:25.706 * DB saved on disk
+14572:S 07 Nov 2019 22:33:25.706 * Removing the pid file.
+14572:S 07 Nov 2019 22:33:25.706 # Redis is now ready to exit, bye bye...
+1007:C 08 Nov 2019 20:55:38.349 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1007:C 08 Nov 2019 20:55:38.349 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1007, just started
+1007:C 08 Nov 2019 20:55:38.351 # Configuration loaded
+1007:S 08 Nov 2019 20:55:38.353 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1007
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1007:S 08 Nov 2019 20:55:38.354 # Server initialized
+1007:S 08 Nov 2019 20:55:38.355 * DB loaded from disk: 0.000 seconds
+1007:S 08 Nov 2019 20:55:38.355 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1007:S 08 Nov 2019 20:55:38.355 * Ready to accept connections
+1007:S 08 Nov 2019 20:55:38.355 * Connecting to MASTER 127.0.0.1:30001
+1007:S 08 Nov 2019 20:55:38.355 * MASTER <-> REPLICA sync started
+1007:S 08 Nov 2019 20:55:38.355 * Non blocking connect for SYNC fired the event.
+1007:S 08 Nov 2019 20:55:38.356 * Master replied to PING, replication can continue...
+1007:S 08 Nov 2019 20:55:38.356 * Trying a partial resynchronization (request b33f0ac257642ed95870eefc3f9e90045248380b:964964).
+1007:S 08 Nov 2019 20:55:38.358 * Full resync from master: 6386d5388829e17cfe799d63c97a30a161f95ed9:0
+1007:S 08 Nov 2019 20:55:38.358 * Discarding previously cached master state.
+1007:S 08 Nov 2019 20:55:38.429 * MASTER <-> REPLICA sync: receiving 175 bytes from master
+1007:S 08 Nov 2019 20:55:38.430 * MASTER <-> REPLICA sync: Flushing old data
+1007:S 08 Nov 2019 20:55:38.430 * MASTER <-> REPLICA sync: Loading DB in memory
+1007:S 08 Nov 2019 20:55:38.430 * MASTER <-> REPLICA sync: Finished with success
+1007:signal-handler (1573221359) Received SIGINT scheduling shutdown...
+1007:S 08 Nov 2019 20:55:59.939 # User requested shutdown...
+1007:S 08 Nov 2019 20:55:59.939 * Saving the final RDB snapshot before exiting.
+1007:S 08 Nov 2019 20:55:59.940 * DB saved on disk
+1007:S 08 Nov 2019 20:55:59.940 * Removing the pid file.
+1007:S 08 Nov 2019 20:55:59.941 # Redis is now ready to exit, bye bye...

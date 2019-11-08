@@ -1,0 +1,79 @@
+1026:C 08 Nov 2019 20:57:05.013 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1026:C 08 Nov 2019 20:57:05.013 # Redis version=5.0.6, bits=64, commit=00000000, modified=0, pid=1026, just started
+1026:C 08 Nov 2019 20:57:05.015 # Configuration loaded
+1026:S 08 Nov 2019 20:57:05.016 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1026
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1026:S 08 Nov 2019 20:57:05.017 # Server initialized
+1026:S 08 Nov 2019 20:57:05.017 * DB loaded from disk: 0.000 seconds
+1026:S 08 Nov 2019 20:57:05.017 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1026:S 08 Nov 2019 20:57:05.017 * Ready to accept connections
+1026:S 08 Nov 2019 20:57:05.018 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 20:57:05.018 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 20:57:05.018 * Non blocking connect for SYNC fired the event.
+1026:S 08 Nov 2019 20:57:05.018 * Master replied to PING, replication can continue...
+1026:S 08 Nov 2019 20:57:05.018 * Trying a partial resynchronization (request 6386d5388829e17cfe799d63c97a30a161f95ed9:29).
+1026:S 08 Nov 2019 20:57:05.019 * Successful partial resynchronization with master.
+1026:S 08 Nov 2019 20:57:05.019 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1026:S 08 Nov 2019 21:05:31.492 # Connection with master lost.
+1026:S 08 Nov 2019 21:05:31.492 * Caching the disconnected master state.
+1026:S 08 Nov 2019 21:05:31.547 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 21:05:31.547 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 21:05:31.549 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 21:05:32.582 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 21:05:32.582 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 21:05:32.584 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 21:05:33.609 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 21:05:33.610 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 21:05:33.611 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 21:05:34.628 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 21:05:34.628 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 21:05:34.630 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 21:05:35.662 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 21:05:35.663 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 21:05:35.663 * Non blocking connect for SYNC fired the event.
+1026:S 08 Nov 2019 21:05:35.663 * Master replied to PING, replication can continue...
+1026:S 08 Nov 2019 21:05:35.664 * Trying a partial resynchronization (request 6386d5388829e17cfe799d63c97a30a161f95ed9:729).
+1026:S 08 Nov 2019 21:05:35.665 * Full resync from master: c6fb2cf9671a5ababeb233267b0325450b06747a:0
+1026:S 08 Nov 2019 21:05:35.666 * Discarding previously cached master state.
+1026:S 08 Nov 2019 21:05:35.727 * MASTER <-> REPLICA sync: receiving 175 bytes from master
+1026:S 08 Nov 2019 21:05:35.727 * MASTER <-> REPLICA sync: Flushing old data
+1026:S 08 Nov 2019 21:05:35.728 * MASTER <-> REPLICA sync: Loading DB in memory
+1026:S 08 Nov 2019 21:05:35.728 * MASTER <-> REPLICA sync: Finished with success
+1026:S 08 Nov 2019 22:06:45.895 # Connection with master lost.
+1026:S 08 Nov 2019 22:06:45.895 * Caching the disconnected master state.
+1026:S 08 Nov 2019 22:06:46.500 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 22:06:46.501 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 22:06:46.501 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 22:06:47.519 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 22:06:47.519 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 22:06:47.519 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 22:06:48.546 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 22:06:48.546 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 22:06:48.547 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 22:06:49.590 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 22:06:49.590 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 22:06:49.590 # Error condition on socket for SYNC: Connection refused
+1026:S 08 Nov 2019 22:06:50.632 * Connecting to MASTER 127.0.0.1:30001
+1026:S 08 Nov 2019 22:06:50.633 * MASTER <-> REPLICA sync started
+1026:S 08 Nov 2019 22:06:50.633 # Error condition on socket for SYNC: Connection refused
+1026:M 08 Nov 2019 22:06:51.288 # Setting secondary replication ID to c6fb2cf9671a5ababeb233267b0325450b06747a, valid up to offset: 5069. New replication ID is 48d2bb333426ea37bff99c47b02c2f3833f67449
+1026:M 08 Nov 2019 22:06:51.288 * Discarding previously cached master state.
+1026:M 08 Nov 2019 22:06:51.288 * MASTER MODE enabled (user request from 'id=11 addr=127.0.0.1:49916 fd=11 name=sentinel-771d674c-cmd age=2738 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=140 qbuf-free=32628 obl=36 oll=0 omem=0 events=r cmd=exec')
+1026:M 08 Nov 2019 22:06:51.291 # CONFIG REWRITE executed with success.
